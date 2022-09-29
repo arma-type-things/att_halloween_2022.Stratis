@@ -5,9 +5,8 @@
 		Plays a warhorn on the position of the second parameter.
 
 	Parameter(s):
-		0: NAME - "WarHorn1", etc
+	0: NAME - "WarHorn1", etc
         1: OBJECT - something that has a position we can query
-        2: NUMBER - volume (5 works well at 500m -> 1000m, but not much further)
 
 	Returns:
 		Nothing
