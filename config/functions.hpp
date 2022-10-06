@@ -4,5 +4,9 @@ class CfgFunctions {
             file = "functions\atmosphere";
             class playWarhorn {};
         };
+        class spawns {
+            file = "functions\spawns";
+            class spawnHunters {};
+        }
     };
 };
