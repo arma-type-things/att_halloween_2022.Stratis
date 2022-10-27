@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=357;
+		nextID=408;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=9;
+		nextID=11;
 	};
 	class Camera
 	{
-		pos[]={2614.3982,111.65568,5594.9614};
-		dir[]={-0.43909886,-0.6712473,0.59717607};
-		up[]={-0.39763981,0.74123347,0.54079157};
-		aside[]={0.80565178,1.4901161e-008,0.59238946};
+		pos[]={3437.6714,285.17285,2897.7034};
+		dir[]={-0.41279984,-0.50268149,0.75954449};
+		up[]={-0.24003887,0.86447161,0.44166735};
+		aside[]={0.87862265,0,0.47751686};
 	};
 };
 binarizationWanted=0;
@@ -31,6 +31,17 @@ sourceName="att_halloween_2022";
 addons[]=
 {
 	"A3_Characters_F",
+	"A3_Weapons_F_Enoch_Rifles_MSBS",
+	"A3_Weapons_F_Acc",
+	"A3_Weapons_F_Enoch",
+	"dev_weapon_scanner",
+	"A3_Weapons_F",
+	"A3_Drones_F_Weapons_F_Gamma_Items",
+	"A3_Characters_F_Heads",
+	"A3_Characters_F_Orange_Facewear",
+	"A3_Characters_F_Orange_Headgear",
+	"dev_mutant_common",
+	"A3_Weapons_F_Items",
 	"dev_mutant_form939",
 	"A3_Modules_F_Intel",
 	"A3_Ui_F",
@@ -47,24 +58,18 @@ addons[]=
 	"dev_mutant_toxmut",
 	"dev_zeus",
 	"A3_Structures_F_EPA_Civ_Constructions",
-	"A3_Air_F_Beta_Heli_Attack_01",
 	"A3_Soft_F_Beta_MRAP_03",
 	"A3_Air_F_EPB_Heli_Light_03",
 	"cba_xeh",
 	"A3_Weapons_F_Rifles_MX_Black",
-	"A3_Weapons_F_Acc",
-	"A3_Weapons_F",
 	"A3_Weapons_F_Launchers_Titan",
-	"dev_weapon_scanner",
-	"ACWP_USP",
-	"A3_Weapons_F_Items",
-	"dev_mutant_common"
+	"ACWP_USP"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=24;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -74,129 +79,151 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="dev_mutant_form939";
-			name="dev_mutant_form939";
+			className="A3_Weapons_F_Enoch";
+			name="Arma 3 Contact Platform - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item2
-		{
-			className="A3_Modules_F";
-			name="Arma 3 Alpha - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item3
-		{
-			className="A3_Ui_F";
-			name="Arma 3 - User Interface";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item4
-		{
-			className="A3_Structures_F_Mil";
-			name="Arma 3 - Military Buildings and Structures";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item5
-		{
-			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item6
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item3
+		{
+			className="dev_weapon_scanner";
+			name="dev_weapon_scanner";
+		};
+		class Item4
+		{
+			className="A3_Drones_F";
+			name="Arma 3 Beta - Drones";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Characters_F_Orange";
+			name="Arma 3 Orange - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="dev_mutant_common";
+			name="dev_mutant_common";
+		};
 		class Item7
+		{
+			className="dev_mutant_form939";
+			name="dev_mutant_form939";
+		};
+		class Item8
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item11
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
 		{
 			className="dev_mutant_hivemind";
 			name="dev_mutant_hivemind";
 		};
-		class Item8
+		class Item13
 		{
 			className="dev_mutant_zombie";
 			name="dev_mutant_zombie";
 		};
-		class Item9
+		class Item14
 		{
 			className="dev_mutant_asymhuman_stage2";
 			name="dev_mutant_asymhuman_stage2";
 		};
-		class Item10
+		class Item15
 		{
 			className="dev_mutant_parasite";
 			name="dev_mutant_parasite";
 		};
-		class Item11
+		class Item16
 		{
 			className="A3_Air_F_Beta";
 			name="Arma 3 Beta - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item17
 		{
 			className="dev_mutant_asymhuman";
 			name="dev_mutant_asymhuman";
 		};
-		class Item13
+		class Item18
 		{
 			className="dev_mutant_toxmut";
 			name="dev_mutant_toxmut";
 		};
-		class Item14
+		class Item19
 		{
 			className="dev_zeus";
 			name="dev_zeus";
 		};
-		class Item15
+		class Item20
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item21
 		{
 			className="A3_Soft_F_Beta";
 			name="Arma 3 Beta - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item22
 		{
 			className="A3_Air_F_EPB";
 			name="Arma 3 Adapt Episode - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
-		{
-			className="dev_weapon_scanner";
-			name="dev_weapon_scanner";
-		};
-		class Item19
+		class Item23
 		{
 			className="ACWP_USP";
 			name="ACWP_USP";
 			author="monk1junk1";
 		};
-		class Item20
-		{
-			className="dev_mutant_common";
-			name="dev_mutant_common";
-		};
 	};
 };
 dlcs[]=
 {
-	"Expansion",
-	"ORANGE"
+	"Enoch",
+	"Orange",
+	"Expansion"
 };
 randomSeed=7747933;
 class ScenarioData
@@ -209,7 +236,8 @@ class ScenarioData
 	respawnVehicleDelay=120.00001;
 	class Header
 	{
-		maxPlayers=16;
+		gameType="Coop";
+		maxPlayers=14;
 	};
 	wreckRemovalMaxTime=3600;
 };
@@ -407,6 +435,7 @@ class Mission
 		briefingName="LCT: Operation [REDACTED]";
 		overviewText="Investigate some strange dogs.. .?";
 		resistanceWest=0;
+		resistanceEast=1;
 		timeOfChanges=1800.0002;
 		startWeather=0.88969809;
 		startWind=0.1;
@@ -427,14 +456,14 @@ class Mission
 	};
 	class Entities
 	{
-		items=83;
+		items=96;
 		class Item0
 		{
 			dataType="Group";
 			side="West";
 			class Entities
 			{
-				items=10;
+				items=11;
 				class Item0
 				{
 					dataType="Object";
@@ -906,6 +935,220 @@ class Mission
 					};
 					id=145;
 					type="B_helicrew_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.05;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1886.65,5.5044413,5714.6006};
+						angles[]={6.2806959,4.9034042,0.0024897563};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						rank="CORPORAL";
+						name="squad_01_11";
+						description="1-11 O-4 Rep";
+						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MSBS65_UBS_black_F";
+								optics="optic_tws";
+								muzzle="muzzle_snds_H";
+								flashlight="acc_pointer_IR";
+								class primaryMuzzleMag
+								{
+									name="30Rnd_65x39_caseless_msbs_mag";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="dev_weapon_scanner";
+								class primaryMuzzleMag
+								{
+									name="dev_magazine_scannerBattery";
+									ammoLeft=100;
+								};
+							};
+							class uniform
+							{
+								typeName="U_C_Scientist";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="dev_enzymeCapsule";
+										count=2;
+									};
+									class Item1
+									{
+										name="dev_enzymeCapsule_refined";
+										count=2;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_TacVestIR_blk";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="SmokeShell";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="SmokeShellGreen";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellOrange";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="30Rnd_65x39_caseless_msbs_mag";
+										count=1;
+										ammoLeft=30;
+									};
+									class Item4
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=2;
+										ammoLeft=6;
+									};
+									class Item5
+									{
+										name="dev_magazine_scannerBattery";
+										count=3;
+										ammoLeft=100;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=4;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_AssaultPack_blk";
+								isBackpack=1;
+								class MagazineCargo
+								{
+									items=6;
+									class Item0
+									{
+										name="B_IR_Grenade";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="Chemlight_green";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="30Rnd_65x39_caseless_msbs_mag_Tracer";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item3
+									{
+										name="dev_magazine_scannerBattery";
+										count=2;
+										ammoLeft=100;
+									};
+									class Item4
+									{
+										name="6Rnd_12Gauge_Slug";
+										count=2;
+										ammoLeft=6;
+									};
+									class Item5
+									{
+										name="6Rnd_12Gauge_Pellets";
+										count=2;
+										ammoLeft=6;
+									};
+								};
+								class ItemCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="dev_enzymeCapsule";
+										count=12;
+									};
+									class Item1
+									{
+										name="dev_enzymeCapsule_refined";
+										count=8;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="B_UavTerminal";
+							goggles="G_Shades_Black";
+							headgear="H_WirelessEarpiece_F";
+						};
+					};
+					id=391;
+					type="B_officer_F";
+					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4221,6 +4464,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="private _pilot = missionNamespace getVariable ""team_01_pilot"";" \n "if (isNil _pilot) then { deleteVehicle this };";
 				name="helicopter_01";
 			};
 			id=123;
@@ -5987,23 +6231,6 @@ class Mission
 		};
 		class Item65
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={5026.9165,210.53568,5904.085};
-				angles[]={6.2606878,3.7448831,0.017505653};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="backup_bird";
-			};
-			id=271;
-			type="B_Heli_Attack_01_dynamicLoadout_F";
-		};
-		class Item66
-		{
 			dataType="Group";
 			side="Independent";
 			class Entities
@@ -6487,11 +6714,6 @@ class Mission
 					showWP="NEVER";
 					id=313;
 					atlOffset=0.5;
-					class AttachedTo
-					{
-						id=271;
-						offset[]={0,0.5,0};
-					};
 				};
 			};
 			class Attributes
@@ -6532,7 +6754,7 @@ class Mission
 			id=274;
 			atlOffset=-4.7683716e-007;
 		};
-		class Item67
+		class Item66
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6550,7 +6772,7 @@ class Mission
 			type="I_MRAP_03_F";
 			atlOffset=-4.7683716e-007;
 		};
-		class Item68
+		class Item67
 		{
 			dataType="Group";
 			side="Independent";
@@ -6700,7 +6922,7 @@ class Mission
 			};
 			id=314;
 		};
-		class Item69
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6716,7 +6938,7 @@ class Mission
 			id=315;
 			type="I_Heli_light_03_dynamicLoadout_F";
 		};
-		class Item70
+		class Item69
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6727,7 +6949,7 @@ class Mission
 			id=324;
 			type="VirtualAISquad";
 		};
-		class Item71
+		class Item70
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6738,7 +6960,7 @@ class Mission
 			id=325;
 			type="VirtualAISquad";
 		};
-		class Item72
+		class Item71
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6749,7 +6971,7 @@ class Mission
 			id=326;
 			type="VirtualAISquad";
 		};
-		class Item73
+		class Item72
 		{
 			dataType="Object";
 			class PositionInfo
@@ -6767,7 +6989,7 @@ class Mission
 			type="Box_IND_Ammo_F";
 			atlOffset=1.5258789e-005;
 		};
-		class Item74
+		class Item73
 		{
 			dataType="Group";
 			side="Independent";
@@ -6936,7 +7158,7 @@ class Mission
 			};
 			id=330;
 		};
-		class Item75
+		class Item74
 		{
 			dataType="Group";
 			side="Independent";
@@ -7117,7 +7339,7 @@ class Mission
 			};
 			id=332;
 		};
-		class Item76
+		class Item75
 		{
 			dataType="Group";
 			side="Independent";
@@ -7298,7 +7520,7 @@ class Mission
 			};
 			id=334;
 		};
-		class Item77
+		class Item76
 		{
 			dataType="Group";
 			side="Independent";
@@ -7479,7 +7701,7 @@ class Mission
 			};
 			id=336;
 		};
-		class Item78
+		class Item77
 		{
 			dataType="Trigger";
 			position[]={5487.2759,86.773956,5929.7979};
@@ -7496,7 +7718,7 @@ class Mission
 			id=120;
 			type="EmptyDetector";
 		};
-		class Item79
+		class Item78
 		{
 			dataType="Group";
 			side="Independent";
@@ -7677,7 +7899,7 @@ class Mission
 			};
 			id=341;
 		};
-		class Item80
+		class Item79
 		{
 			dataType="Group";
 			side="Independent";
@@ -7858,7 +8080,7 @@ class Mission
 			};
 			id=343;
 		};
-		class Item81
+		class Item80
 		{
 			dataType="Group";
 			side="Independent";
@@ -8039,7 +8261,7 @@ class Mission
 			};
 			id=345;
 		};
-		class Item82
+		class Item81
 		{
 			dataType="Trigger";
 			position[]={4844.3262,179.59366,5918.978};
@@ -8054,16 +8276,398 @@ class Mission
 			id=355;
 			type="EmptyDetector";
 		};
+		class Item82
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={1885.129,5.502809,5715.4688};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						health=0;
+						name="dead_stalker";
+					};
+					id=393;
+					type="dev_form939_o";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+				garbageCollect=1;
+			};
+			id=392;
+		};
+		class Item83
+		{
+			dataType="Trigger";
+			position[]={5972.332,38.96888,5319.3188};
+			class Attributes
+			{
+				name="spawn_hunters_01";
+				condition="triggerActivated call_the_hunt";
+				onActivation="_hunters = [_spawnPosition, east, (missionconfigfile >> ""CfgGroups"" >> ""EAST"" >> ""att_necroplague_groups"" >> ""Infected"" >> ""small_hunter_group"")] call BIS_fnc_spawnGroup; _hunters deleteGroupWhenEmpty true; " \n "_start_point = _hunters addWaypoint [position wp_hunter_move_01, 0]; " \n "_search_point = _hunters addWaypoint [position wp_sad_01, 0]; " \n "_search_point setWaypointType ""SAD""; " \n "";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={2,5,8};
+				isServerOnly=1;
+			};
+			id=394;
+			type="EmptyDetector";
+		};
+		class Item84
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4832.2759,52.074234,6805.6719};
+				angles[]={0.3322137,0,6.0382066};
+			};
+			name="hunter_spawn_02";
+			id=395;
+			type="VirtualAISquad";
+		};
+		class Item85
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4933.4414,60.092522,6720.0703};
+				angles[]={0.24733086,0,6.1934271};
+			};
+			name="wp_hunter_move_02";
+			id=396;
+			type="VirtualAISquad";
+		};
+		class Item86
+		{
+			dataType="Trigger";
+			position[]={6170.7715,26.133432,5284.3008};
+			class Attributes
+			{
+				name="spawn_hunters_02";
+				condition="triggerActivated call_the_hunt";
+				onActivation="_hunters = [_spawnPosition, east, (missionconfigfile >> ""CfgGroups"" >> ""EAST"" >> ""att_necroplague_groups"" >> ""Infected"" >> ""small_hunter_group"")] call BIS_fnc_spawnGroup; _hunters deleteGroupWhenEmpty true; " \n "_start_point = _hunters addWaypoint [position wp_hunter_move_02, 0]; " \n "_search_point = _hunters addWaypoint [position wp_sad_02, 0]; " \n "_search_point setWaypointType ""SAD""; " \n "";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={2,5,8};
+				isServerOnly=1;
+			};
+			id=397;
+			type="EmptyDetector";
+		};
+		class Item87
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4139.6831,54.766193,5529.4326};
+				angles[]={5.8791995,0,0.17567001};
+			};
+			name="wp_sad_02";
+			id=398;
+			type="VirtualAISquad";
+		};
+		class Item88
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2264.2336,14.214045,3564.4912};
+				angles[]={0.31874737,0,0.19499035};
+			};
+			name="hunter_spawn_03";
+			id=399;
+			type="VirtualAISquad";
+		};
+		class Item89
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2591.0754,57.030323,3626.7471};
+				angles[]={0.33890009,0,0.3631472};
+			};
+			name="wp_hunter_move_03";
+			id=400;
+			type="VirtualAISquad";
+		};
+		class Item90
+		{
+			dataType="Trigger";
+			position[]={6089.061,45.140865,5140.3359};
+			class Attributes
+			{
+				name="spawn_hunters_03";
+				condition="triggerActivated call_the_hunt";
+				onActivation="_hunters = [_spawnPosition, east, (missionconfigfile >> ""CfgGroups"" >> ""EAST"" >> ""att_necroplague_groups"" >> ""Infected"" >> ""small_hunter_group"")] call BIS_fnc_spawnGroup; _hunters deleteGroupWhenEmpty true; " \n "_start_point = _hunters addWaypoint [position wp_hunter_move_03, 0]; " \n "_search_point = _hunters addWaypoint [position wp_sad_03, 0]; " \n "_search_point setWaypointType ""SAD""; " \n "";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={2,5,8};
+				isServerOnly=1;
+			};
+			id=401;
+			type="EmptyDetector";
+		};
+		class Item91
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4715.5469,155.67186,4564.4717};
+				angles[]={6.0148177,0,6.0405598};
+			};
+			name="wp_sad_03";
+			id=402;
+			type="VirtualAISquad";
+		};
+		class Item92
+		{
+			dataType="Trigger";
+			position[]={4005.0869,100.55137,3966.8333};
+			angle=6.2713323;
+			class Attributes
+			{
+				name="trigger_endgame_gate_opfor";
+				sizeA=3886.3367;
+				sizeB=3786.8877;
+				activationType="NOT PRESENT";
+				activationBy="EAST";
+				isServerOnly=1;
+			};
+			id=404;
+			type="EmptyDetectorAreaR250";
+			atlOffset=-34.282295;
+		};
+		class Item93
+		{
+			dataType="Trigger";
+			position[]={3984.0601,124.22774,3966.1951};
+			angle=6.2713337;
+			class Attributes
+			{
+				name="trigger_endgame_ind_final";
+				condition="triggerActivated trigger_endgame_gate_opfor and this";
+				sizeA=3886.3369;
+				sizeB=3786.8879;
+				activationType="NOT PRESENT";
+				activationBy="GUER";
+				type="END1";
+				isServerOnly=1;
+			};
+			id=405;
+			type="EmptyDetectorAreaR250";
+		};
+		class Item94
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6520.0332,0,3652.3755};
+			};
+			name="tsk_endgame";
+			id=406;
+			type="ModuleTaskCreate_F";
+			atlOffset=30.197382;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleTaskCreate_F_Destination";
+					expression="_this setVariable ['Destination',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleTaskCreate_F_Type";
+					expression="_this setVariable ['Type',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="target";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleTaskCreate_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleTaskCreate_F_Marker";
+					expression="_this setVariable ['Marker',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleTaskCreate_F_Title";
+					expression="_this setVariable ['Title',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Endgame";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleTaskCreate_F_Description";
+					expression="_this setVariable ['Description',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="A brood queen's avatars  are here, and have called a hunt. Your new objective is to survive, and hunt them down instead. You can't trust your own team mates if they are killed by one of the avatars, but you may have to... we can't leave the island intact if you can't clear it out.";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleTaskCreate_F_ID";
+					expression="_this setVariable ['ID',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="endgame";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleTaskCreate_F_AlwaysVisible";
+					expression="_this setVariable ['AlwaysVisible',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleTaskCreate_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=4;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleTaskCreate_F_State";
+					expression="_this setVariable ['State',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="ASSIGNED";
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="ModuleTaskCreate_F_IDParent";
+					expression="_this setVariable ['IDParent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				nAttributes=11;
+			};
+		};
+		class Item95
+		{
+			dataType="Trigger";
+			position[]={3896.8811,206.04263,4593.2222};
+			class Attributes
+			{
+				name="trigger_endgame_task";
+				condition="triggerActivated trigger_hunt_begins";
+				sizeA=0;
+				sizeB=0;
+				timeout[]={2,4,6};
+			};
+			id=407;
+			type="EmptyDetector";
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=65;
+			nextID=88;
 		};
 		class Links
 		{
-			items=65;
+			items=88;
 			class Item0
 			{
 				linkID=0;
@@ -8709,6 +9313,236 @@ class Mission
 				linkID=64;
 				item0=355;
 				item1=112;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item65
+			{
+				linkID=65;
+				item0=391;
+				item1=56;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item66
+			{
+				linkID=66;
+				item0=279;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item67
+			{
+				linkID=67;
+				item0=278;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item68
+			{
+				linkID=68;
+				item0=276;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item69
+			{
+				linkID=69;
+				item0=277;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item70
+			{
+				linkID=70;
+				item0=316;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item71
+			{
+				linkID=71;
+				item0=317;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item72
+			{
+				linkID=72;
+				item0=331;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item73
+			{
+				linkID=73;
+				item0=333;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item74
+			{
+				linkID=74;
+				item0=335;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item75
+			{
+				linkID=75;
+				item0=337;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item76
+			{
+				linkID=76;
+				item0=342;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item77
+			{
+				linkID=77;
+				item0=344;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item78
+			{
+				linkID=78;
+				item0=346;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item79
+			{
+				linkID=79;
+				item0=275;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item80
+			{
+				linkID=80;
+				item0=315;
+				item1=46;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item81
+			{
+				linkID=81;
+				item0=407;
+				item1=406;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item82
+			{
+				linkID=82;
+				item0=344;
+				item1=406;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item83
+			{
+				linkID=83;
+				item0=342;
+				item1=406;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item84
+			{
+				linkID=84;
+				item0=337;
+				item1=406;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item85
+			{
+				linkID=85;
+				item0=335;
+				item1=406;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item86
+			{
+				linkID=86;
+				item0=333;
+				item1=406;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item87
+			{
+				linkID=87;
+				item0=331;
+				item1=406;
 				class CustomData
 				{
 					type="Sync";
